@@ -102,6 +102,12 @@ const ImageScreen = () => {
     try {
       const imagesDir = FileSystem.documentDirectory + "images/";
       const dirInfo = await FileSystem.getInfoAsync(imagesDir);
+
+      if (!dirInfo.exists) {
+        console.log("📂 Creating images directory...");
+        await FileSystem.makeDirectoryAsync(imagesDir, { intermediates: true });
+      }
+
       const { status } = await MediaLibrary.requestPermissionsAsync();
       if (status !== "granted") {
         alert("Permission to access media library is required!");
