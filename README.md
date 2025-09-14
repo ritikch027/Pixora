@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# Pixora
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![Expo](https://img.shields.io/badge/Expo-49.0.0-000.svg?style=flat&logo=expo&logoColor=white)](https://expo.dev/)
+[![React Native](https://img.shields.io/badge/React%20Native-0.74-blue.svg?style=flat&logo=react&logoColor=white)](https://reactnative.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js->=16-green.svg?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Get started
+Pixora is a React Native app built with Expo, designed to deliver a smooth mobile experience with a modern UI and performance-optimized features.  
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📱 Features
+- Cross-platform mobile app with **React Native & Expo**
+- Android native integration (Gradle, Kotlin support)
+- Modern UI components and reusable layouts
+- Asset and theme management for light/dark modes
+- API integration via `api/index.js`
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Kotlin](https://kotlinlang.org/) (for Android native code)
+- [JavaScript / ES6+](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Gradle](https://gradle.org/) (for Android builds)
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🚀 Getting Started
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
+- Node.js (>= 16)
+- npm or yarn
+- Expo CLI
+- Android Studio (for Android builds)
 
-## Get a fresh project
-
-When you're ready, run:
-
+### Installation
 ```bash
-npm run reset-project
-```
+# Clone the repo
+git clone https://github.com/<your-username>/pixora.git
+cd pixora
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Install dependencies
+npm install
 
-## Learn more
+# Start development server
+npx expo start
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
