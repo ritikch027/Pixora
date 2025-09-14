@@ -38,7 +38,7 @@ Pixora is a React Native app built with Expo, designed to deliver a smooth mobil
 ### Installation
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/pixora.git
+git clone https://github.com/ritikch027/Pixora.git
 cd pixora
 
 # Install dependencies
