@@ -1,6 +1,6 @@
 # Pixora
 
-[![Expo](https://img.shields.io/badge/Expo-53.0.0-000.svg?style=flat&logo=expo&logoColor=white)](https://expo.dev/)
+[![Expo](https://img.shields.io/badge/Expo-54.0.0-000.svg?style=flat&logo=expo&logoColor=white)](https://expo.dev/)
 [![React Native](https://img.shields.io/badge/React%20Native-0.74-blue.svg?style=flat&logo=react&logoColor=white)](https://reactnative.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js->=16-green.svg?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
