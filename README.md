@@ -13,6 +13,12 @@ Pixora - Expo/React Native image search & wallpaper browser powered by the Pixab
 
 ---
 
+## 📥 Downloads
+- [⬇️ Download APK](https://github.com/ritikch027/Pixora/releases/download/v1.0.0/Pixora-v1.apk
+)  
+
+---
+
 ## Features
 - Debounced search + infinite scrolling feed
 - Category browsing + filter modal (type, colors, etc.)
