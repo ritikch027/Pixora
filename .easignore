@@ -1,46 +1,113 @@
-# Dependencies
+# ===========================
+
+# Node dependencies (reinstalled on EAS servers)
+
+# ===========================
+
 node_modules
 
-# OS-specific
+# ===========================
+
+# OS-specific files
+
+# ===========================
+
 .DS_Store
 Thumbs.db
 
+# ===========================
+
 # Logs
+
+# ===========================
+
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+yarn-error.log\*
 expo-error.log
 
+# ===========================
+
 # Build outputs
+
+# ===========================
+
 dist
 build
 web-build
 
-# Expo local data
+# ===========================
+
+# Expo / React Native local data
+
+# ===========================
+
 .expo
 .expo-shared
 .cache
 .babel-cache
-.haste-map-*
+.haste-map-\*
 
-# Environment variables (use EAS secrets instead)
+# ===========================
+
+# Environment variables
+
+# ===========================
+
+# Use EAS secrets instead of local .env files
+
 .env
 .env.local
 .env.development
 .env.production
 
+# ===========================
+
 # IDE / Editor configs
+
+# ===========================
+
 .vscode
 .idea
-*.iml
+\*.iml
 
-# Tests / coverage
+# ===========================
+
+# Test / Coverage files
+
+# ===========================
+
 coverage
 jest-coverage
-*.lcov
+\*.lcov
 
-# Gradle / Xcode local stuff
+# ===========================
+
+# Native / Platform-specific caches
+
+# ===========================
+
 android/.gradle
 android/local.properties
 ios/Pods
 ios/build
+
+# ===========================
+
+# Keep lockfiles! (critical)
+
+# ===========================
+
+# package-lock.json or yarn.lock must NOT be ignored
+
+# ===========================
+
+# Optional: large unused assets (if any)
+
+# ===========================
+
+# Uncomment or add directories/files here if you have heavy test assets or docs
+
+# assets/test-videos/
+
+# docs/

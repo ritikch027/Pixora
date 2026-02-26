@@ -4,7 +4,7 @@
     "slug": "Pixora",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icon1.png",
     "scheme": "pixora",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,7 +14,8 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon1.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#ffffff",
+        "resizeMode":"contain"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.anonymous.Pixora",
