@@ -1,6 +1,6 @@
 # Pixora
 
-[![Expo SDK](https://img.shields.io/badge/Expo%20SDK-53-000.svg?style=flat&logo=expo&logoColor=white)](https://expo.dev/)
+[![Expo SDK](https://img.shields.io/badge/Expo%20SDK-54-000.svg?style=flat&logo=expo&logoColor=white)](https://expo.dev/)
 [![React Native](https://img.shields.io/badge/React%20Native-0.79-blue.svg?style=flat&logo=react&logoColor=white)](https://reactnative.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-%3E%3D16-green.svg?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 
@@ -81,6 +81,3 @@ The Pixabay API key is currently defined in `api/index.js` as `API_KEY`. For pro
 - `helpers/`: layout + utility helpers
 
 ---
-
-## Suggested tags (GitHub topics)
-`react-native`, `expo`, `expo-router`, `pixabay`, `pixabay-api`, `image-search`, `wallpapers`, `gallery-app`, `masonry-layout`, `flash-list`, `expo-media-library`, `expo-image`, `react-navigation`, `android`, `ios`, `web`, `javascript`
